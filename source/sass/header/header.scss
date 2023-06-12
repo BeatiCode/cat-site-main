@@ -1,17 +1,10 @@
 .menu {
-  padding: 1.25rem;
+  padding: 1rem 1.25rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.menu__logo {
-}
-.menu__logo-text {
-}
-.menu__button {
-}
-.menu__list {
-}
+
 .menu__list-items {
   text-align: center;
   text-transform: uppercase;
@@ -19,15 +12,18 @@
   margin: 0;
   padding: 0;
 }
-.menu__list-item.menu__list-item:first-child{
-  border-top: 1px solid #E6E6E6;
+
+.menu__list-item.menu__list-item:first-child {
+  border-top: 0.1rem solid #e6e6e6;
 }
+
 .menu__list-item {
   padding: 1rem 0;
-  border-bottom: 1px solid #E6E6E6;
+  border-bottom: 0.1rem solid #e6e6e6;
 }
+
 .menu__list-item-link {
+  font-weight: 400;
   text-decoration: none;
-  font-weight: 500;
   color: #333333;
 }
