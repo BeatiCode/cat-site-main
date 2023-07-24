@@ -1,10 +1,3 @@
-@import "/source/sass/fonts/fonts.scss";
+@import "fonts/fonts.scss";
 @import "container/container.scss";
 @import "header/header.scss";
-
-body {
-  font-family: "Oswald",
-  "Arial",
-  "sans-serif";
-  font-weight: 300;
-}
