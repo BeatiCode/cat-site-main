@@ -1,31 +1,29 @@
 .menu {
-  display: grid;
-  grid-template-columns: 1fr 6fr 1fr;
-  justify-items: center;
+  display: flex;
   align-items: center;
-  padding: 4px 15px 0 12px;
+  padding: 4px 0;
+  margin: 0 15px 0 12px;
 }
-.menu__ image{
-
-}
-.menu__logo {
-  display: inline-block;
-}
+// .menu__logo {
+// }
 .menu__logo-text {
-  flex-grow: 3;
+  text-align: center;
+  flex-grow: 1;
+  margin: 0 14px 0 0;
 }
 .menu__button {
-
+  position: relative;
+  bottom: 3px;
 }
-.menu__list--disabled {
-}
+// .menu__list--disabled {
+// }
 .menu__list {
   &--disabled {
     display: none;
   }
 }
-.menu__list {
-}
+// .menu__list {
+// }
 .menu__list-items {
   text-align: center;
   text-transform: uppercase;
