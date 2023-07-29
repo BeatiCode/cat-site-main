@@ -2,22 +2,32 @@
 
 }
 .search-programm__content {
-  background: url("/img/index-background-mobile.jpg") no-repeat top / contain;
+  background: no-repeat top url("/img/index-background-mobile.jpg");
   text-align: center;
   color: #ffffff;
   padding: 27px 20px 22px 20px;
 }
 .search-programm__title {
+  margin: 0 0 24px 0;
   font-size: 36px;
   font-style: normal;
   font-weight: 400;
   line-height: 36px;
 }
 .search-programm__text {
+  margin: 0 0 24px 0;
+  text-transform: uppercase;
 }
-.search-programm__img {
-}
+// .search-programm__img {
+// }
 .button {
+  display: block;
+  width: 100%;
+  padding: 8px 0;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #68B738;
 }
 .search-programm__button {
 }
