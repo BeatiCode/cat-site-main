@@ -8,23 +8,24 @@
 .menu {
   display: flex;
   align-items: center;
-  padding: 13px 0 11px 0;
+  padding: 13px 0 12px 0;
   margin: 0 23px 0 20px;
 }
 
-// .menu__logo {
-// }
+.menu__logo {
+  position: relative;
+  top: 2px;
+
+}
 
 .menu__logo-text {
   text-align: center;
   flex-grow: 1;
-  margin: 0 14px 0 0;
+  margin: 6px 14px 0 0;
 }
 
-.menu__button {
-  position: relative;
-  bottom: 3px;
-}
+// .menu__button {
+// }
 
 .menu__button-img {
   display: none;
